@@ -43,7 +43,7 @@ npm install
 Start the development server with the following command:
 
 ```bash
-npm start
+npm run dev
 ```
 
 5.  **Open in your browser:**
@@ -57,10 +57,9 @@ The project follows an organized folder structure to facilitate maintenance:
 ```
 src/
 ├── components/ # Reusable components
-├── styles/     # Global styles and TailwindCSS configurations
-├── utils/      # Shared functions and logic
+├── pages/      # Main page displaying the multi select component and containing the core logic
 ├── App.tsx     # Root component of the application
-└── index.tsx   # Main entry point
+└── main.tsx    # Main entry point
 ```
 
 ## Tools Used
